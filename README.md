@@ -1,3 +1,0 @@
-# TGIF
-# TGIF-P
-# TGIF-P
