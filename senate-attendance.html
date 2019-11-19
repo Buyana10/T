@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="table" content="width=device-width, initial-scale=1.0"> 
-<title>Senate Data</title>
+<title>Senate Attendance</title>
 <link rel="stylesheet" href="materialize.css">
 <link rel="stylesheet" href="style.css">
 
@@ -87,64 +87,33 @@
 
 
 
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                  <a href="#about">About</a>
-                  <a href="#base">Base</a>
-                  <a href="#blog">Blog</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#custom">Custom</a>
-                  <a href="#support">Support</a>
-                  <a href="#tools">Tools</a>
-                </div>
-              </div>
+        <!--Table container-->
+        <div class="container_main">
+        <div>
+            <h2>Attendance</h2>
+            <p>The Constitution specifies that a majority of members constitutes a quorum to do business in each house. Representatives and senators rarely force the presence of a quorum by demanding quorum calls; thus, in most cases, debates continue even if a majority is not present.</p>
 
-                <!--Table container-->
-                <div class="container_main">
+            <p>The Senate uses roll-call votes; a clerk calls out the names of all the senators, each senator stating "aye" or "no" when his or her name is announced. The House reserves roll-call votes for the most formal matters, as a roll-call of all 435 representatives takes quite some time; normally, members vote by electronic device. In the case of a tie, the motion in question fails. In the Senate, the Vice President may (if present) cast the tiebreaking vote.</p>
+    	    
+            <h2>Senate at a glance</h2>
+            <table id= "senate-attendance-statistics"></table>
+            
+            <h2>Least Engaged (Bottom 10% Attendance)</h2>
+            <table id= "senate-attendance-bottom"></table>
 
-                   
+            <h2>Most Engaged (Top 10% Attendance)</h2>
+            <table id= "senate-attendance-top"></table>
+            
+            </div> 
+    
+            <script src="pro-Congress-113-senate.js"></script>
+            <script src ="senate-general.js"></script>
+            <script src ="senate-attendance.js"></script>
+          </div>
 
+          <div class= "container_footer">  
+            <p>2016 / All rights reserved</p>
+            </div>
 
-                <div>
-                    <h2>Senators</h2>
-                    <p>First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S. Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
-                  </div> 
-                  
-                  
-                  <!--filter by state-->
-                  <div class="dropdown">
-                      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                      <div id="myDropdown" class="dropdown-content">
-                        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                        <a href="#about">About</a>
-                        <a href="#base">Base</a>
-                        <a href="#blog">Blog</a>
-                        <a href="#contact">Contact</a>
-                        <a href="#custom">Custom</a>
-                        <a href="#support">Support</a>
-                        <a href="#tools">Tools</a>
-                      </div>
-                    </div> 
-                    
-                    
-                    
-                    
-
-                      
-                     
-<script src= "filter-dropdown.js"></script>                
-<table id= "senate-data"></table>
-<script src="/pro-Congress-113-senate.js"></script>
-<script src="/senate-data.js"></script>
-</div>
-
-
-
-<div class= "container_footer">  
-  <p>2016 / All rights reserved</p>
-  </div>
-</body>
-
-</html>
+          </body>
+          </html>

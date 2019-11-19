@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="table" content="width=device-width, initial-scale=1.0"> 
-<title>Senate Data</title>
+<title>House Party Loyalty</title>
 <link rel="stylesheet" href="materialize.css">
 <link rel="stylesheet" href="style.css">
 
@@ -85,66 +85,32 @@
                     
             </div>
 
+        <!--Table container-->
+        <div class="container_main">
+        <div>
+            <h2>Party Loyalty</h2>
+            <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda. </p>
+    	    
+            <h2>Senate at a glance</h2>
+            <table id= "house-attendance-statistics"></table>
+            
+            <h2>Most Loyal (Top 10% of Party)</h2>
+            <table id= "house-loyalty-top"></table>
 
+            <h2>Least Loyal (Bottom 10% of Party)</h2>
+            <table id= "house-loyalty-bottom"></table>
 
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                  <a href="#about">About</a>
-                  <a href="#base">Base</a>
-                  <a href="#blog">Blog</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#custom">Custom</a>
-                  <a href="#support">Support</a>
-                  <a href="#tools">Tools</a>
-                </div>
-              </div>
+        </div>  
+        
+        
+        <script src="pro-Congress-113-house.js"></script>
+        <script src ="house-general.js"></script>
+        <script src ="house-party-loyalty.js"></script>
+      </div>
 
-                <!--Table container-->
-                <div class="container_main">
-
-                   
-
-
-                <div>
-                    <h2>Senators</h2>
-                    <p>First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S. Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
-                  </div> 
-                  
-                  
-                  <!--filter by state-->
-                  <div class="dropdown">
-                      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                      <div id="myDropdown" class="dropdown-content">
-                        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                        <a href="#about">About</a>
-                        <a href="#base">Base</a>
-                        <a href="#blog">Blog</a>
-                        <a href="#contact">Contact</a>
-                        <a href="#custom">Custom</a>
-                        <a href="#support">Support</a>
-                        <a href="#tools">Tools</a>
-                      </div>
-                    </div> 
-                    
-                    
-                    
-                    
-
-                      
-                     
-<script src= "filter-dropdown.js"></script>                
-<table id= "senate-data"></table>
-<script src="/pro-Congress-113-senate.js"></script>
-<script src="/senate-data.js"></script>
-</div>
-
-
-
-<div class= "container_footer">  
-  <p>2016 / All rights reserved</p>
-  </div>
+      <div class= "container_footer">  
+        <p>2016 / All rights reserved</p>
+        </div>
+    
 </body>
-
 </html>
